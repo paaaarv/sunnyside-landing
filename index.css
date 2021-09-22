@@ -1,22 +1,47 @@
-
+body{
+    margin: 0;
+    padding: 0;
+}
 
 .heading{
-    background-color: hsl(212, 27%, 19%);
+    background-image: url(images/desktop/image-header.jpg);
+    height: 800px;
+    background-size: cover;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.orange{
+    width: 100%;
+    position: relative;
 }
 
 .navigation{
     font-family: Barlow, sans-serif;
-    color: hsl(0, 0%, 100%);
     font-weight: 600;
     font-size: 18px;
     text-align: right;
 }
 
+.contact{
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    font-family: Fraunces, sans-serif;
+    font-weight: 700;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 15px;
+}
 h1{
     font-family: Fraunces, sans-serif;
     font-weight: 900;
     color: hsl(0, 0%, 100%);
     text-align: center;
-    font-size: 50px;
+    font-size: 55px;
     letter-spacing: 10px;
+    font-stretch: expanded;
+    padding-top: 70px;
+    padding-bottom: 500px;
+
 }
