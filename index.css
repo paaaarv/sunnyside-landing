@@ -1,0 +1,22 @@
+
+
+.heading{
+    background-color: hsl(212, 27%, 19%);
+}
+
+.navigation{
+    font-family: Barlow, sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 18px;
+    text-align: right;
+}
+
+h1{
+    font-family: Fraunces, sans-serif;
+    font-weight: 900;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
