@@ -32,6 +32,7 @@ html, body{
 }
 
 .navigation{
+    color: hsl(0, 0%, 100%);
     font-family: Barlow, sans-serif;
     font-weight: 600;
     font-size: 18px;
@@ -40,13 +41,19 @@ html, body{
     padding-top: 20px;
 }
 
+a{
+    margin: 20px;
+}
+
 .contact{
     background-color: hsl(0, 0%, 100%);
+    border: none;
     color: black;
     font-family: Fraunces, sans-serif;
     font-weight: 700;
-    border-radius: 25px;
-    padding: 15px;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 20px 35px;
     margin: 15px;
 }
 h1{
